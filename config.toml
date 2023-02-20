@@ -1,4 +1,4 @@
 baseURL = 'https://o860724.github.io/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
-theme = 'hugo-theme-min'
+theme = 'hugo-theme-mini'
