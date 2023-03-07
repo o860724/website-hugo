@@ -4,15 +4,13 @@ date: 2023-03-06T01:00:35+08:00
 draft: false
 ---
 
-# Drink King - drink order system
-
-## Overview
+# **Overview**
 Drink King tries to help people who need drink order inspiration or suffer from group order chaos. Our users can easily search for drink shops around and see the drink lists offered today. They can also share their order with friends, who can add their customized orders themselves, making the group ordering process easier and more accurate.
 
-## Project Promt
+# **Project Prompt**
 The handshake drink culture is a part of Taiwanese life. Based on the massive demand in the market, we have devised a platform where people can do tea shopping online and share their orders with groups. And also, the partner-customer can easily join the shared order and customize their own drinks.
 
-## My Role 
+# **My Role**
 - Project Ideation
 - User Research
 - User Case
@@ -20,12 +18,13 @@ The handshake drink culture is a part of Taiwanese life. Based on the massive de
 - Wireflow
 - Sequence Diagram
 
-## My Tool
+
+# **My Tool**
 - Figma
 - StarUML
 - HackMD
 
-## Main Feature
+# **Main Feature**
 - Sign-in and Sign-up
 - Drinks shopping (Search for teashops and drinks)
 - Add to Cart (Add / Edit / Delete order)
@@ -33,16 +32,17 @@ The handshake drink culture is a part of Taiwanese life. Based on the massive de
 - Place order
 - Review order history
 
-## User Flow
+# **User Flow**
 ![image alt](https://drive.google.com/uc?export=view&id=1sKndeFPMzHE1z8c0A8LOjgG1SHrl1huF)
 
-## User Case 
-📌 There are two types of users
-1. Main-customer: The person who places the order and can edit all the items in it.
-2. Partner-customer: The person who joins the order made by the main customer. They can only add items and submit them to the main order.
+---
 
-### Sign up & Sign in
+# **User Case**
+> 📌 There are two types of users
+> - Main-customer: The person who places the order and can edit all the items in it.
+> - Partner-customer: The person who joins the order made by the main customer. They can only add items and submit them to the main order.
 
+## Sign up & Sign in
 | Item | Content |
 | --- | --- |
 | Name | Sign up |
@@ -63,8 +63,7 @@ The handshake drink culture is a part of Taiwanese life. Based on the massive de
 | Main Success Scenario | The user successfully signs in and accesses their account. |
 | Alternative Scenario | The user is unable to sign in, causing by account issue or technical issue. Provide instructions to the user for troubleshooting. |
 
-### Drink shopping
-
+## Drink shopping
 | Item | Content |
 | --- | --- |
 | Name | Search for tea shops |
@@ -78,7 +77,7 @@ The handshake drink culture is a part of Taiwanese life. Based on the massive de
 
 | Item | Content |
 | --- | --- |
-| Name | Browse teashop infomation and drink details |
+| Name | Browse teashop information and drink details |
 | Actor | User (main-customer and partner-customer) |
 | Goal | To browse teashop information and drink details |
 | Preconditions | N/A |
@@ -86,8 +85,7 @@ The handshake drink culture is a part of Taiwanese life. Based on the massive de
 | Main Success Scenario | The user can access the teashop information and drink details they need.  |
 | Alternative Scenario | N/A |
 
-### Add order (Add to cart)
-
+## Add order (Add to cart)
 | Item | Content |
 | --- | --- |
 | Name | Add an order (Add to cart) |
@@ -99,21 +97,19 @@ The handshake drink culture is a part of Taiwanese life. Based on the massive de
 | Alternative Scenario | 1. The user is not signed in. Redirect to the sign-in page. |
 | |2. The user is unable to add the drinks to the cart because they are sold out. Alert by the snack bar and disable the add button. |
 
-### Organize group order (Share orders)
-
+## Organize group order (Share orders)
 | Item | Content |
 | --- | --- |
 | Name | Share the order |
 | Actor | Main-customer |
 | Goal | To allow the main-customer to organize a group order by sharing their order with friends. |
-| Preconditions | The main-customer has alreadyadded an order. |
+| Preconditions | The main-customer has already added an order. |
 | Postconditions | The system generates a link for order sharing and sends a notification to the assigned partner-customers |
 | Main Success Scenario | The main-customer successfully shares the order by assigning partner-customers or sharing the link.  |
 | Alternative Scenario | 1. The main customer is unable to share the order with the assigned customers, because the assigned account is not valid. |
 | |2. The main customer is unable to share the order because it has been checked out. |
 
-### Place order
-
+## Place order
 | Item | Content |
 | --- | --- |
 | Name | Place order |
@@ -128,8 +124,7 @@ The handshake drink culture is a part of Taiwanese life. Based on the massive de
 | |2. The order cannot be placed because the cart is empty or the total price is less than free delivery minimum. Alert by the snack bar. |
 | |3. The order cannot be placed because the main customer is not signed-in. Redirect to the sign-in page. |
 
-### View order history
-
+## View order history
 | Item | Content |
 | --- | --- |
 | Name | View order history |
@@ -142,10 +137,8 @@ The handshake drink culture is a part of Taiwanese life. Based on the massive de
 
 ---
 
-## Data Dictionary
-
-### Teashop
-
+# **Data Dictionary**
+## Teashop
 | Field name | Data type (Length) | Primary key | Format |
 | --- | --- | --- | --- |
 | Teashop_id | int(4) | V | 0001~9999 |
@@ -154,10 +147,9 @@ The handshake drink culture is a part of Taiwanese life. Based on the massive de
 | Teashop_address | text(50) |  | No.xxx, xxx Rd, xxx Dist., xxxCity, xxx |
 | Free_delivery_minimum  | int(4) |  | NTD |
 | Teashop_Description | text |  | xxx |
-| Open_hour | text |  | **Mon** hh:mm ~ hh:mm <br> **Tue**  hh:mm ~ hh:mm <br> **Wed** hh:mm ~ hh:mm <br> **Thu** hh:mm ~ hh:mm <br> **Fri** hh:mm ~ hh:mm <br> **Sat** hh:mm ~ hh:mm <br> **Sun** hh:mm ~ hh:mm |
+| Open_hour | text |  | **Mon** hh:mm ~ hh:mm {{< line_break >}} **Tue**  hh:mm ~ hh:mm {{< line_break >}}**Wed** hh:mm ~ hh:mm {{< line_break >}} **Thu** hh:mm ~ hh:mm {{< line_break >}} **Fri** hh:mm ~ hh:mm {{< line_break >}} **Sat** hh:mm ~ hh:mm {{< line_break >}} **Sun** hh:mm ~ hh:mm |
 
-### Order
-
+## Order
 | Field name | Data type (Length) | Primary key | Format |
 | --- | --- | --- | --- |
 | Order_id | char(6) | v | 000001~999999 |
@@ -175,19 +167,17 @@ The handshake drink culture is a part of Taiwanese life. Based on the massive de
 
 ---
 
-## Wireflow
+# **Wireflow**
 ![image alt](https://drive.google.com/uc?export=view&id=18tNFaQnW1od08RIyvWUOqBvOtAP6KppR)
 
 ---
 
-## UI Dictionary
-
-### UI No.3 - add to cart UI
+# **UI Dictionary**
+## UI No.3 - add to cart UI
 ![image alt](https://drive.google.com/uc?export=view&id=1033AkJICNynlUdb_2q1SAcRwNN6-I4hd)
-1. Browse the teashop infomation and drinks details
+1. Browse the teashop information and drinks details
 2. Customize their drinks
 3. Add them to cart
-
 | Name | Type | Function | Column name in DB | Data type |
 | --- | --- | --- | --- | --- |
 | Teashop title | Label | Show title | Teashop_Title | Char(10) |
@@ -204,7 +194,7 @@ The handshake drink culture is a part of Taiwanese life. Based on the massive de
 | Size | Button | Choose drink size | Size | Char(4) |
 | Add | Button | Add drinks to cart |  |  |
 
+---
 
-
-## Sequence Diagram
+# **Sequence Diagram**
 ![image alt](https://drive.google.com/uc?export=view&id=1S5pRbkgNsRk7x0nP_hEqqqLdllGrXT82)
