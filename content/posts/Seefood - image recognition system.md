@@ -88,8 +88,7 @@ Therefore, we created "Seefood" app to solve this pain point. Help people see wh
 ![UI/UX Flow](https://drive.google.com/uc?export=view&id=1wpT1ew8K8GQIcsMXGnPglj_ty1H_p8_q)
 
 # **Demo Video**
-{{< youtube id="BBCVxwEdmbo&ab" title="Seefood Demo Video" >}}
-
+{{< vimeo 805473526 >}}
 
 # **UI/UX Redesign**
 ## Food Court - Home Page
