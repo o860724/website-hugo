@@ -1,11 +1,12 @@
 ---
 title: "Seefood - image recognition system"
-date: 2023-03-06T01:00:36+08:00
+date: 2019-05-06T01:00:36+08:00
 draft: false
 ---
+🌟  *3rd place in 23rd International ICT Innovative Services Awards* 🌟
 
-# **Overview**
-Seafood is an innovative app that helps foodies recognize cuisine from attractive photos and assists cooks in getting recipes and ingredient details. It also enables users to easily search for recipes by on hand ingredients, thereby helping them use up the food stored in fridges.
+Seafood is an innovative app that helps foodies recognize cuisine from attractive photos and assists cooks in getting recipes and ingredient details. It also enables users to easily search for recipes by on hand ingredients, thereby helping them use up the food stored in fridges.<!--more-->
+
 The app supports voice typing, because we know that cooks’ hands are never spared in the kitchen. Additionally, the app welcomes all users to share their creative recipes, building up the community on our app and feeding our model training database simultaneously.
 
 # **Project Prompt**

@@ -1,12 +1,10 @@
 ---
 title: "BPM system"
-date: 2023-03-06T01:00:37+08:00
+date: 2023-01-06T01:00:37+08:00
 draft: false
 ---
 
-# **Overview**
-Our BPM system is based on the e-form requirements of the HRM system. We aim to expand more comprehensive functions to help organizations establish, execute, monitor, and optimize their business processes.
-
+Our BPM system is based on the e-form requirements of the HRM system. We aim to expand more comprehensive functions to help organizations establish, execute, monitor, and optimize their business processes.<!--more-->
 We virtualize physical business processes by using forms and flows, which we call "tasks." The task manager can establish a new task on the backstage. Then, collecting essential information via form, assigning responsible owners through flow setting, and controlling users' roles for each task, such as task applicant, viewer, manager, or monitor. Users can then easily start or execute an approval process on the forestage (supporting mobile and web).
 
 User accounts are linked to our HRM system. Furthermore, we support to set a specific ‘virtual organization’ for the collaborative task which helps cross-functional teamwork become much easier.
@@ -25,7 +23,7 @@ Backstage: Establish the business process(task), organization and administration
 - Administration: access level setting, change log
 
 # **My Role**
-- Product Manager
+- Product Manager(Focus on Task Execution/Flow Engine)
 
 # **My Tool**
 - Trello
@@ -35,7 +33,13 @@ Backstage: Establish the business process(task), organization and administration
 # **Function Map**
 ![User Flow](https://drive.google.com/uc?export=view&id=1DLXD_RQCRtQ958kquhnsRsov4Hcv6rzq)
 
-# **Task Execution**
+# **Task Execution/Flow Engine**
+## 3 critical elements for Flow Process:
+- Owner
+- Operation
+- Node Status
+![Flow Engine](https://drive.google.com/uc?export=view&id=1_QSWdw8UnDRFhGuPNAFdNrQpOGY_EXp7)
+
 ## User Operation & Flow Process List
 |Operation|Flow direction|Operation node|Operation node status|Next node status|Pass by node status|
 | --- | --- | --- | --- | --- | --- |

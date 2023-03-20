@@ -1,11 +1,11 @@
----
-title: "Drink King - drink order system"
-date: 2023-03-06T01:00:35+08:00
-draft: false
----
++++
+author = "Li"
+title = "Drink King - drink order system"
+date = "2018-06-30T01:00:35+08:00"
+description = "Drink King System Documentation"
++++
 
-# **Overview**
-Drink King tries to help people who need drink order inspiration or suffer from group order chaos. Our users can easily search for drink shops around and see the drink lists offered today. They can also share their order with friends, who can add their customized orders themselves, making the group ordering process easier and more accurate.
+Drink King tries to help people who need drink order inspiration or suffer from group order chaos. Our users can easily search for drink shops around and see the drink lists offered today. They can also share their order with friends, who can add their customized orders themselves, making the group ordering process easier and more accurate.<!--more-->
 
 # **Project Prompt**
 The handshake drink culture is a part of Taiwanese life. Based on the massive demand in the market, we have devised a platform where people can do tea shopping online and share their orders with groups. And also, the partner-customer can easily join the shared order and customize their own drinks.

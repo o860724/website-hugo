@@ -35,9 +35,10 @@ markup:
 # Social links in footer, support github,twitter,stackoverflow,facebook
 social:
   # e.g.
-  github: your-github-link
-  twitter: your-github-link
-  stackoverflow: your-github-link
+  linkedin: https://www.linkedin.com/in/yuhsuan-li-27a8921a3/
+  #github: your-github-link
+  #twitter: your-github-link
+  #stackoverflow: your-github-link
   # facebook: your-facebook-link
 
 
@@ -46,7 +47,7 @@ params:
   # Site Author
   author: Author
   # Author biography
-  bio: This is my portfolio
+  bio: Welcome to my portfolio
   # Site Description, used in HTML meat
   description: My Portfolio
 
@@ -68,9 +69,9 @@ params:
   # To enable math typesetting , you could set `math: true`, default is `false`
   math: false
   # To hidden post summary in home page, you could set `hiddenPostSummaryInHomePage: true`, default is `false`
-  hiddenPostSummaryInHomePage: true
+  hiddenPostSummaryInHomePage: false
   # Website copy write, default: '© Copyright 2021 ❤️ {params.author}'
-  copyright: ' Li '
+  copyright: ' Copyright© 2023 Li '
 
   # Extra links in navigation
   links:
