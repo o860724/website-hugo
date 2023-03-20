@@ -3,6 +3,10 @@ author = "Li"
 title = "Drink King - drink order system"
 date = "2018-06-30T01:00:35+08:00"
 description = "Drink King System Documentation"
+tags = [
+    "PROJECT_IDEATION",
+    "USER_RESEARCH",
+]
 +++
 
 Drink King tries to help people who need drink order inspiration or suffer from group order chaos. Our users can easily search for drink shops around and see the drink lists offered today. They can also share their order with friends, who can add their customized orders themselves, making the group ordering process easier and more accurate.<!--more-->

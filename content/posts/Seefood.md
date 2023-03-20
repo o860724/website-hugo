@@ -1,8 +1,14 @@
----
-title: "Seefood - image recognition system"
-date: 2019-05-06T01:00:36+08:00
-draft: false
----
++++
+author = "Li"
+title= "Seefood - image recognition system"
+date= "2019-05-06T01:00:36+08:00"
+tags = [
+    "PROJECT_IDEATION",
+    "USER_RESEARCH",
+    "UI/UX_DESIGN", 
+]
++++
+
 🌟  *3rd place in 23rd International ICT Innovative Services Awards* 🌟
 
 Seafood is an innovative app that helps foodies recognize cuisine from attractive photos and assists cooks in getting recipes and ingredient details. It also enables users to easily search for recipes by on hand ingredients, thereby helping them use up the food stored in fridges.<!--more-->
